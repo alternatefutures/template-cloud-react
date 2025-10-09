@@ -1,4 +1,4 @@
-# React + Fleek Starter Kit
+# React + AlternateFutures Starter Kit
 
 ![image](https://github.com/fleekxyz/react-template/assets/55561695/0e7bfe91-ffe3-4dd5-852c-c551344163b4)
 
@@ -35,13 +35,13 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm run preview`      | Preview your build locally, before deploying     |
 | `pnpm run lint ...`    | Run Linter |
 
-## ⚡ How to deploy to Fleek
+## ⚡ How to deploy to AlternateFutures
 
 ### 1. Create a `fleek.json` config file:
-You can configure this site deployment using [Fleek CLI]() and running:
+You can configure this site deployment using [AlternateFutures CLI]() and running:
 ```
  > fleek sites init
-   WARN! Fleek CLI is in beta phase, use it under your own responsibility
+   WARN! AlternateFutures CLI is in beta phase, use it under your own responsibility
    ? Choose one of the existing sites or create a new one. › 
    ❯ Create a new site
 ```
@@ -58,7 +58,7 @@ fleek sites deploy
 ```
 After running it you will get an output like this:
 ```
- WARN! Fleek CLI is in beta, use it at your own discretion
+ WARN! AlternateFutures CLI is in beta, use it at your own discretion
  > Success! Deployed!
  > Site IPFS CID: QmP1nDyoHqSrRabwUSrxRV3DJqiKH7b9t1tpLcr1NTkm1M
 
@@ -67,8 +67,8 @@ After running it you will get an output like this:
  ```
 
 ### Extra features
-- **Continuous Integration (CI):** `fleek sites ci` [Documentation.](https://docs.fleek.xyz/services/sites/#continuous-integration-ci)
-- **Adding custom domains:** `fleek domains create` [Documentation.](https://docs.fleek.xyz/services/domains/)
+- **Continuous Integration (CI):** `fleek sites ci` [Documentation.](https://docs.alternatefutures.ai/services/sites/#continuous-integration-ci)
+- **Adding custom domains:** `fleek domains create` [Documentation.](https://docs.alternatefutures.ai/services/domains/)
 
 
 ### Keep in mind:
