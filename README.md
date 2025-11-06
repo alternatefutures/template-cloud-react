@@ -1,6 +1,9 @@
 # React + AlternateFutures Starter Kit
 
-![AlternateFutures](https://github.com/alternatefutures/cloud-templates/raw/main/assets/hero-logo.svg)
+<div align="center">
+  <img src="./assets/hero-logo.svg" alt="Alternate Futures" width="600" />
+</div>
+
 
 ## 🚀 Project Structure
 
