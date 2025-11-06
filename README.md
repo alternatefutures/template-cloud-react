@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero-logo.svg" alt="Alternate Futures" width="600" />
+  <img src="./src/assets/hero-logo.svg" alt="Alternate Futures" width="600" />
 </div>
 
 # React + AlternateFutures Starter Kit
