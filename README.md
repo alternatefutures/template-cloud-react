@@ -1,8 +1,8 @@
-# React + AlternateFutures Starter Kit
-
 <div align="center">
   <img src="./assets/hero-logo.svg" alt="Alternate Futures" width="600" />
 </div>
+
+# React + AlternateFutures Starter Kit
 
 
 ## 🚀 Project Structure
