@@ -1,6 +1,6 @@
 import reactLogo from './assets/react.svg'
-import fleekLogo from './assets/fleekLogo.svg'
-import fleekMark from './assets/fleekMark.svg'
+import afLogo from './assets/afLogo.svg'
+import afMark from './assets/afMark.svg'
 import plusIcon from './assets/plus.svg'
 import viteLogo from './assets/vite.svg'
 
@@ -10,20 +10,20 @@ function App() {
   return (
     <main>
       <div className="hero-top">
-        <img src={fleekLogo} style={{ height: 87 }} />
+        <img src={afLogo} style={{ height: 87 }} />
         <img src={plusIcon} />
         <img src={reactLogo} style={{ height: 87 }} />
       </div>
       <p className='description'>
-        This is a template for creating a React site build it with Vite and deploying it on Fleek.
+        This is a template for creating a React site build it with Vite and deploying it on AlternateFutures.
       </p>
       <ul role="list" className='card-list'>
         <Card
-          icon={fleekMark}
+          icon={afMark}
           width={31}
-          href="https://docs.fleek.xyz/"
-          title="Fleek Documentation"
-          body="Learn about Fleek & the available services by cheking our official docs."
+          href="https://docs.alternatefutures.ai/"
+          title="AlternateFutures Documentation"
+          body="Learn about AlternateFutures & the available services by checking our official docs."
         />
 
         <Card
@@ -35,11 +35,11 @@ function App() {
         />
 
         <Card
-          icon={fleekMark}
+          icon={afMark}
           width={31}
-          href="https://blog.fleek.xyz/"
-          title="Fleek Blog"
-          body="Checkout our Blog for more information about Fleek."
+          href="https://blog.alternatefutures.ai/"
+          title="AlternateFutures Blog"
+          body="Checkout our Blog for more information about AlternateFutures."
         />
 
         <Card
