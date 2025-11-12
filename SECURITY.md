@@ -15,6 +15,16 @@ All dependencies have been updated to their latest versions to address known vul
 - **TypeScript**: Latest stable version
 - **All dev dependencies**: Updated to latest versions
 
+#### Automated Dependency Updates
+
+Dependabot is configured to automatically create pull requests for dependency updates:
+
+- **npm dependencies**: Checked daily at 9:00 AM EST
+- **GitHub Actions**: Checked weekly on Mondays
+- **Grouping**: Minor and patch updates are grouped together to reduce PR noise
+- **Limits**: Maximum of 5 open PRs for npm dependencies, 3 for GitHub Actions
+- **Configuration**: See `.github/dependabot.yml` for full settings
+
 ### 2. Vite Security Configurations
 
 The following security configurations have been added to `vite.config.ts`:
@@ -114,10 +124,10 @@ If you discover a security vulnerability, please:
 - [x] Content Security Policy configured
 - [x] Filesystem access restrictions in place
 - [x] Security documentation created
+- [x] Dependabot automated dependency updates configured
 - [ ] Enable HSTS when HTTPS is configured
 - [ ] Review and tighten CSP for production
-- [ ] Set up automated security scanning
-- [ ] Configure dependency update automation
+- [ ] Set up automated security scanning in CI/CD
 
 ## Resources
 
