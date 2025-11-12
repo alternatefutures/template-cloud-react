@@ -1,0 +1,32 @@
+# Security Headers for Production Deployment
+# Compatible with Netlify, Cloudflare Pages, and other platforms
+
+/*
+  # Prevent MIME type sniffing
+  X-Content-Type-Options: nosniff
+
+  # Prevent clickjacking attacks
+  X-Frame-Options: DENY
+
+  # Enable XSS protection
+  X-XSS-Protection: 1; mode=block
+
+  # Control referrer information
+  Referrer-Policy: strict-origin-when-cross-origin
+
+  # Restrict browser features
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), payment=(), usb=(), magnetometer=(), gyroscope=()
+
+  # Content Security Policy
+  # Note: Adjust 'unsafe-inline' and 'unsafe-eval' based on your app's needs
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+
+  # Enforce HTTPS (uncomment when using HTTPS)
+  # Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+  # Cache control for assets
+  Cache-Control: public, max-age=31536000, immutable
+
+/index.html
+  # Don't cache the main HTML file
+  Cache-Control: no-cache, no-store, must-revalidate

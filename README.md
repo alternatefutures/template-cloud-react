@@ -40,7 +40,7 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm run preview`      | Preview your build locally, before deploying     |
 | `pnpm run lint ...`    | Run Linter |
 
-## ⚡ How to deploy to AlternateFutures
+## ✨ How to deploy to Alternate Futures
 
 ### 1. Create a `af.config` config file:
 You can configure this site deployment using [AlternateFutures CLI]() and running:
